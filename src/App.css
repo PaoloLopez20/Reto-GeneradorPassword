@@ -1,0 +1,51 @@
+
+.contenedor {
+	max-width: 500px;
+	width: 90%;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #94d2d4;
+    color: #faf4f4;
+    border-radius: 25px;
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+label {
+	line-height: 40px;
+    color: #000000;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+input {
+	text-align: center;
+	border: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  body {    
+    background-image: linear-gradient(150deg, #000000, #ffffff, #000000);
+    background-size: 500%;
+    animation: gradient 15s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
